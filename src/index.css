@@ -1,6 +1,6 @@
 :root {
   --box-shadow: 5px 5px 10px 10px rgba(249, 250, 247, 0.855);
-  --bg-color: rgb(40, 47, 97);
+  --bg-color: rgb(50, 61, 147);
 }
 
 body {
@@ -286,3 +286,60 @@ a {
     font-size: 1.5rem;
   }
 }
+.about-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(24, 160, 158);
+}
+
+h1 {
+  color: #f4e7e7;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color:rgb(50, 61, 147);
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h2 {
+  font-size: 24px;
+  color: #97f206;
+}
+
+h3 {
+  font-size: 20px;
+  color: #d3e7ef;
+}
+
+p {
+  font-size: 16px;
+  color: #e8f716;
+  margin-bottom: 10px;
+}
+
+.marks {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
