@@ -28,7 +28,8 @@ const About = () => {
       <h1>About</h1>
       <div className="cards-container">
         {academicData.map((item, index) => (
-          <div className="card" key={index}>
+          <div className="card" key={index} data-aos="flip-right"
+          data-aos-duration="1000">
             <h2>{item.year}</h2>
             <h3>{item.qualification}</h3>
             <p>{item.school}</p>
